@@ -10,7 +10,7 @@ export default async function handler(
         headers: {
             'User-Agent': userAgent,
             'Accept-Language': 'en-US,en;q=0.5',
-            'Referer': 'https://www.terabox.com/sharing/link?surl=gfujeeyKv_ZGFd_dAJ3uXw',
+            'Referer': 'https://www.4funbox.com/sharing/link?surl=gfujeeyKv_ZGFd_dAJ3uXw',
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-origin',
@@ -57,7 +57,7 @@ export default async function handler(
         }
 
         try {
-            const response = await axiosClient.get(`https://www.terabox.com/api/shorturlinfo?app_id=${appId}&web=1&channel=dubox&clienttype=0&jsToken=${jsToken}&dp-logid=${dpLogId}&shorturl=${shareCode}&root=1`)
+            const response = await axiosClient.get(`https://www.4funbox.com/api/shorturlinfo?app_id=${appId}&web=1&channel=dubox&clienttype=0&jsToken=${jsToken}&dp-logid=${dpLogId}&shorturl=${shareCode}&root=1`)
 
             if (response.data.errno != 0) {
                 throw new Error("Failed get data");
