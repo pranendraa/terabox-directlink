@@ -12,7 +12,7 @@ export default async function handler(
         headers: {
             'User-Agent': userAgent,
             'Accept-Language': 'en-US,en;q=0.5',
-            'Referer': 'https://www.terabox.com/sharing/link?surl=gfujeeyKv_ZGFd_dAJ3uXw',
+            'Referer': 'https://www.terabox.com/sharing/link?surl=PdOZv3V0YWl0e72Gilb8jQ',
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-origin',
